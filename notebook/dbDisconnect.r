@@ -1,0 +1,2 @@
+dbDisconnect(con)
+dbUnloadDriver(drv)

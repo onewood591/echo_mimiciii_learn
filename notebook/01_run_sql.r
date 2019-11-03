@@ -3,7 +3,7 @@ library(tidyverse)
 library(RPostgreSQL)
 
 # 设定工作目录
-setwd("F:/DownLoad/echo-mimiciii-master/echo-mimiciii-master/notebooks")
+setwd("F:/Rproject/echo_mimiciii_learn/notebook")
 
 # 导入设置文件
 source("utils.R")
@@ -175,3 +175,4 @@ dbSendQuery(con, sql)
 
 
 dbDisconnect(con)
+
